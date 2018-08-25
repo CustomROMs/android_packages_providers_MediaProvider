@@ -4532,9 +4532,9 @@ public class MediaProvider extends ContentProvider {
                         } else {
                             Log.i(TAG, "External volume is not (yet) mounted, cannot attach.");
                         }
-
+/*
                         throw new IllegalArgumentException("Can't obtain external volume ID for " +
-                                volume + " volume.");
+                                volume + " volume.");*/
                     }
 
                     // generate database name based on volume ID
